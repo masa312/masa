@@ -1,0 +1,45 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+
+header{
+    background-color:#ffffff;
+    padding:20px 40px ;
+    height: 60px;
+}
+
+h1{
+    
+    font-weight:1;
+    text-align:center;
+    margin: 0px;
+
+}
+p{
+    text-align:center;
+    margin: 0px;
+    font-weight: bold;
+}
+.contentsu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 50px;
+    grid-template-rows: 200px 200px;
+}
+ .background{
+        background-color: rgb(211, 217, 226);
+        min-height: 100vh
+        
+    }
+
+
+
+
+.Item{
+    background: rgba(54, 137, 101, 0.836);
+    color: #ffffff;
+    padding: 10px;
+    
+}
